@@ -16,7 +16,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           RTTTT Test ddd Edit <code>src/App.js</code> and save to reload!!!!
-          Hello from inside docker Hi I'm development
+          Hello from inside docker Hi I'm development TEST
+          <br />
+          Hello WebSocket
         </p>
         <a
           className="App-link"
