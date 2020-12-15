@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const makeApiRequest = () => {
-    console.log('MakeApiRequest')
+    console.log('makeApiRequest')
     axios('/api/testwithcurrentuser').then((response) => {
       console.log('response', response)
     })
@@ -15,10 +15,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          RTTTT Test ddd Edit <code>src/App.js</code> and save to reload!!!!
-          Hello from inside docker Hi I'm development TEST
-          <br />
-          Hello WebSocket
+          Test Websockets fix Edit! <code>src/App.js</code> and save to
+          reload!!!! Hello from inside docker Hi I'm development
         </p>
         <a
           className="App-link"
@@ -29,7 +27,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <button onClick={makeApiRequest}>Mark api request</button>
+      <button onClick={makeApiRequest}>Make api request</button>
     </div>
   )
 }
